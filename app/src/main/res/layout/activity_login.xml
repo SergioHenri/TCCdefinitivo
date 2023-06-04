@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4ECC6"
+    android:backgroundTint="#B4ECC6"
+    tools:context=".criarelogin.login">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Insira seu e-mail"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/senhalogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuariologin"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="14sp"
+        android:text="Entre com seu login:"
+        android:textColor="#101010"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/usuariologin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799" />
+
+    <EditText
+        android:id="@+id/usuariologin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/senhalogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <EditText
+        android:id="@+id/senhalogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/login2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Insira sua senha"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhalogin"
+        app:layout_constraintVertical_bias="0.044" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

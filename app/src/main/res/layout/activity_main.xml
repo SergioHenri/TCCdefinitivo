@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4ECC6"
+    android:backgroundTint="#B4ECC6"
+    tools:context=".criarelogin.MainActivity">
+
+    <Button
+        android:id="@+id/funcionario"
+        android:layout_width="141dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="36dp"
+        android:background="#00D852"
+        android:backgroundTint="#00D852"
+        android:text="Funcionário"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+    <Button
+        android:id="@+id/criar"
+        android:layout_width="141dp"
+        android:layout_height="111dp"
+        android:layout_marginBottom="-600dp"
+        android:background="#00D852"
+        android:backgroundTint="#00D852"
+        android:text="Criar Conta"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="141dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/criar"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Bem vindo ao Rota Reciclável SBC"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/criar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1082123947778",
+    "firebase_url": "https://rota-reciclavel-sbc-default-rtdb.firebaseio.com",
+    "project_id": "rota-reciclavel-sbc",
+    "storage_bucket": "rota-reciclavel-sbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082123947778:android:5dab76ba2dfe894b363c1b",
+        "android_client_info": {
+          "package_name": "com.example.tcc_definitivo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082123947778-4lrsch7lugr21ti41vm9lp588i5941f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tcc_definitivo",
+            "certificate_hash": "9e9e50c44827fa650338c085719a215c680eac65"
+          }
+        },
+        {
+          "client_id": "1082123947778-vikchlhl3clruolb9mhgij75rcfmolbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRo13kATlETEyWHqL2EMU2BXgKpqWJlGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082123947778-vikchlhl3clruolb9mhgij75rcfmolbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

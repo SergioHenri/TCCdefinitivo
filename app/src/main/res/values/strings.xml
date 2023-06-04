@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Rota Reciclável SBC</string>
+    <string name="title_activity_dados">dados</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_change_dade">ChangeDade</string>
+    <string name="title_activity_mudar_dados">mudarDados</string>
+    <string name="title_activity_alterardados">alterardados</string>
+    <string name="title_activity_ecoponto">ecoponto</string>
+    <string name="title_activity_aprendermaps">Aprendermaps</string>
+    <string name="title_activity_aprende">aprende</string>
+
+    <string name="metal">
+        <![CDATA[
+
+        <p style="text-align: justify;> <b> &nbsp; Os metais são materiais que derivam da extração de minérios, os itens que podem ser encontrados em casa e serem reciclados são:</b></p>
+          <ul>
+            <li>Latas de alimentos e bebidas</li>
+            <li>Tampas de recipiente</li>
+            <li>Ferragens</li>
+            <li>Bandejas e panelas</li>
+            <li>Chapas</li>
+            <li>Embalagens de marmitex</li>
+            <li>Aço</li>
+            <li>Alumínio</li>
+          </ul>
+          <p> <b> &nbsp  Os itens que não podem ser descartados na coleta seletiva:</b></p>
+          <ul>
+            <li>Latas de tintas</li>
+            <li>Latas de inseticidas</li>
+            <li>Pilhas</li>
+            <li>Embalagens de agrotóxicos</li>
+          </ul>
+          <p><b>CUIDADOS PARA O DESCARTE CORRETO DE METAIS:</b></p>
+          <ul>
+            <li> &nbsp Os metais devem ser limpos antes de seu descarte</li>
+          </ul>
+        ]]>
+    </string>
+    <string name="papel">
+        <![CDATA[
+
+        <p style="text-align: justify;> <b> &nbsp; O papel é derivado da madeira, é um dos produtos que podem ser consumidos e reciclados, os itens que podem ser encontrados em casa e serem reciclados são:</b></p>
+          <ul>
+            <li>Revistas</li>
+            <li>Livros</li>
+            <li>Listas telefônicas</li>
+            <li>Cartolinas</li>
+            <li>Embalagens longa-vida</li>
+            <li>Livros</li>
+            <li>Papelão</li>
+            <li>Jornais</li>
+            <li>Cadernos</li>
+          </ul>
+          <p> <b> &nbsp  Os itens que não podem ser descartados na coleta seletiva normal:</b></p>
+          <ul>
+            <li>Papel higiênico </li>
+            <li>Lenços de papel </li>
+            <li>Celofane</li>
+            <li>Papel vegetal </li>
+            <li>Fotografias </li>
+            <li>Papéis encerados ou plastificados  </li>
+            <li>Guardanapos </li>
+          </ul>
+          <p><b>CUIDADOS PARA O DESCARTE CORRETO DE PAPEIS:</b></p>
+          <ul>
+            <li> Ao descarta papeis certifique-se de que eles não tenham resíduos e esteja limpo</li>
+            <li> Os papeis que estejam sujos com gordura devem ser descartados em lixo orgânico /li>
+            <li>Descarte se possivel os papeis com suas categorias </li>
+          </ul>
+        ]]>
+    </string>
+    <string name="plastico">
+        <![CDATA[
+
+        <p style="text-align: justify;> <b> &nbsp; O plástico é um material derivado em sua grande maioria do petróleo, os itens que podem ser encontrados em casa e serem reciclados são:</b></p>
+          <ul>
+            <li>Garrafas de água e refrigerante </li>
+            <li>Tubulações de esgoto</li>
+            <li>Garrafas de minerais</li>
+            <li>Botes de alimentos em geral</li>
+            <li>Brinquedos</li>
+            <li>Frascos de detergente e produtos de limpeza</li>
+            <li>Shampoo e produtos de higiene</li>
+            <li>Sacolas</li>
+            <li>Embalagens de embutidos</li>
+          </ul>
+          <p> <b> &nbsp  Os itens que não podem ser descartados na coleta seletiva normal:</b></p>
+          <ul>
+            <li>Solado de tenis e sapatos</li>
+            <li>Esponjas  </li>
+            <li>Cabos de panelas </li>
+          </ul>
+          <p><b>CUIDADOS PARA O DESCARTE CORRETO DE PLASTICOS:</b></p>
+          <ul>
+            <li> Ao descarta plásticos certifique-se de que eles não tenham resíduos e estejam limpos</li>
+            <li> Separe os plásticos dos demais itens</li>
+          </ul>
+        ]]>
+    </string>
+    <string name="vidro">
+        <![CDATA[
+
+        <p style="text-align: justify;> <b> &nbsp; O vidro é um material derivado da areia, do calcário e feldspato, os itens que podem ser encontrados em casa e serem reciclados são:</b></p>
+          <ul>
+            <li>Garrafas</li>
+            <li>Frascos</li>
+            <li>Copos, pratos e tigelas</li>
+            <li>Janelas</li>
+            <li>Embalagens</li>
+          </ul>
+          <p> <b> &nbsp  Os itens que não podem ser descartados na coleta seletiva normal:</b></p>
+          <ul>
+            <li>Vidros temperados</li>
+            <li>Refratários</li>
+            <li>Pirex</li>
+            <li>Espelhos</li>
+            <li>Tampa de micro-ondas</li>
+            <li>Lâmpadas</li>
+            <li>Cristais</li>
+            <li>Ampolas (remédios)</li>
+            <li>Porcelana</li>
+
+          </ul>
+          <p><b>CUIDADOS PARA O DESCARTE CORRETO DE VIDROS:</b></p>
+          <ul>
+            <li> Ao descarta vidro certifique-se que os recipientes estão limpos e sem resíduos </li>
+            <li> O vidro é um material cortante que pode se manuseado da forma errada causar ferimentos, por isso sempre certifique-se de deixar uma marcação de que a sacola de descarte está portanto vidro
+</li>
+          </ul>
+        ]]>
+    </string>
+    <string name="insira_seu_e_mail">Insira seu e-mail</string>
+    <string name="entre_com_suas_credenciais">Entre com suas credenciais:</string>
+
+
+</resources>
